@@ -72,6 +72,9 @@ MODULES = [
 
 BASEURL = 'https://egc-decide-fran.herokuapp.com'
 
+APIS = {}
+
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
