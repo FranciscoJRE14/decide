@@ -46,6 +46,6 @@ jobs:
     - uses: actions/checkout@v1
     - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
       with:
-          heroku_api_key: ${{6960d89b-53dc-476a-bc22-26cd2688418e}}
+          heroku_api_key: ${{secrets.HEROKU_API_KEY}
           heroku_app_name: " <<decidefjr>>"
           heroku_email: "frarodele_alum.us.es"
